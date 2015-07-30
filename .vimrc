@@ -1,0 +1,2 @@
+
+source $HOME/dotfiles/.myVim
