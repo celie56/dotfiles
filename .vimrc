@@ -1,2 +1,2 @@
 
-source $HOME/dotfiles/.myVim
+source $HOME/dotfiles/my.vim

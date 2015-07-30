@@ -42,6 +42,7 @@ nnoremap <Leader><Leader>q :q<CR>
 nnoremap <Leader>e :e 
 "open folder view
 nnoremap <Leader><Leader>e :e .<CR>
+nnoremap <Leader><Leader><Leader>e :e $HOME<CR>
 "window stuff
 nnoremap <Leader>h <C-w>h
 nnoremap <Leader>l <C-w>l
