@@ -8,6 +8,8 @@ syntax on
 colorscheme desert
 let g:cpp_class_scope_highlight = 1
 
+source $HOME/dotfiles/molokai.vim
+
 set tabstop=4
 set autoindent
 set cindent
