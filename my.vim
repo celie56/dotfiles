@@ -17,6 +17,7 @@ set shiftwidth=4
 set number
 set cursorline
 set backspace=indent,eol,start
+set nowrap
 
 " -----------------------------------------------------------------------------
 " 	REMAPS
