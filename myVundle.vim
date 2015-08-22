@@ -33,7 +33,7 @@ call vundle#begin()
 	Plugin 'bling/vim-airline'
 	set encoding=utf-8
 	let g:airline_powerline_fonts = 1
-	set guifont=Source\ Code\ Pro\ Semibold:h10
+	set guifont=Source\ Code\ Pro\ for\ Powerline\ Semi-Bold\ 10
 
 	" Colors ---------------------------------------------------------------------
 	Plugin 'flazz/vim-colorschemes'
