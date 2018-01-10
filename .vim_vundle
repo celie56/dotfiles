@@ -1,0 +1,82 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+" set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=/home/celie/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+	" Airline --------------------------------------------------------------------
+	" https://www.alexwhittemore.com/gvim-with-powerline-on-windows-8-64bit/Airline
+	Plugin 'vim-airline/vim-airline'
+	set encoding=utf-8
+	let g:airline_powerline_fonts = 1
+	set laststatus=2
+	set guifont=Source\ Code\ Pro\ Semibold:h10
+	let g:airline#extensions#tabline#enabled = 1
+	let g:airline#extensions#whitespace#enabled = 0
+	let g:airline_inactive_collapse=1
+	let g:airline#extensions#tabline#fnamecollapse = 1
+	" Show just the filename
+	let g:airline#extensions#tabline#fnamemod = ':t'
+
+
+	" Airline Themes -------------------------------------------------------------
+  Plugin 'vim-airline/vim-airline-themes'
+
+	" Colors ---------------------------------------------------------------------
+	Plugin 'flazz/vim-colorschemes'
+
+	" Display Marks --------------------------------------------------------------
+	Plugin 'kshenoy/vim-signature'
+
+	" Pep8 -----------------------------------------------------------------------
+	Plugin 'nvie/vim-flake8'
+	let g:flake8_show_in_file=1
+
+	" Control-P ------------------------------------------------------------------
+	Plugin 'ctrlpvim/ctrlp.vim'
+
+	" Nerd Tree ------------------------------------------------------------------
+  Plugin 'scrooloose/nerdtree'
+  nmap <leader>ne :NERDTreeFocus<cr>
+	let NERDTreeQuitOnOpen=1
+
+	" Buffergator ----------------------------------------------------------------
+  " Plugin 'jeetsukumaran/vim-buffergator'
+  " let g:buffergator_autoupdate = 1
+  " " let g:buffergator_autodismiss_on_select = 0
+  " let g:buffergator_show_full_directory_path = 0
+
+	" ag search ------------------------------------------------------------------
+  " Plugin 'rking/ag.vim'
+
+	" Perforce-- ------------------------------------------------------------------
+    " Plugin 'nfvs/vim-perforce'
+
+	" Smart(er) tabs --------------------------------------------------------------
+	" Plugin 'vim-scripts/Smart-Tabs'
+
+	" Ale linter ------------------------------------------------------------------
+	" Plugin 'w0rp/ale'
+
+	" Clang Format ----------------------------------------------------------------
+	Plugin 'rhysd/vim-clang-format'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line

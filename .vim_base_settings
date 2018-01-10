@@ -1,0 +1,20 @@
+
+" None of that compatibility here
+set nocompatible
+set noswapfile
+
+set noexpandtab
+set tabstop=2
+set autoindent
+set cindent
+set shiftwidth=2
+set number
+set cursorline
+set backspace=indent,eol,start
+set nowrap
+
+" set working directory to current file
+" set autochdir
+
+" Copy to system clipboard
+set clipboard=unnamed

@@ -1,0 +1,20 @@
+
+" -----------------------------------------------------------------------------
+" 	MOUSE UTILITIES
+" -----------------------------------------------------------------------------
+" handle gnu screen
+set ttymouse=xterm2
+" handle mouse click
+set mouse=a
+function! ToggleMouse()
+	" check if mouse is enabled
+	if &mouse == 'a'
+		" disable mouse
+		set mouse=
+	else
+		" enable mouse everywhere
+		set mouse=a
+	endif
+endfunc
+
+nnoremap <Leader><Leader>a :call ToggleMouse()<CR>
