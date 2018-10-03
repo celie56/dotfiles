@@ -3,8 +3,8 @@ syntax on
 " All the colors
 set t_Co=256
 " Reset the colors; requires vundle colors
-colorscheme sol-term
-colorscheme solarized
+" colorscheme sol-term
+" colorscheme solarized
 let g:cpp_class_scope_highlight = 1
 
 " -----------------------------------------------------------------------------
