@@ -19,8 +19,12 @@ set mouse=a
 " do not resize on window close
 set noequalalways
 
+" Folding with zc and zo
 set foldmethod=indent
 set foldlevel=20
+
+" Highlight the 80 character mark
+set colorcolumn=80
 
 " -----------------------------------------------------------------------------
 " 	REMAPS
