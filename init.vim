@@ -19,6 +19,8 @@ set mouse=a
 " do not resize on window close
 set noequalalways
 
+set foldmethod=indent
+set foldlevel=20
 
 " -----------------------------------------------------------------------------
 " 	REMAPS
